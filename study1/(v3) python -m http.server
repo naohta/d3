@@ -1,0 +1,16 @@
+http://stackoverflow.com/questions/530787/simple-http-web-server
+
+If you tried this with Python 3.x you probably got:
+
+python.exe: No module named SimpleHTTPServer
+Do this instead:
+
+python -m http.server
+Some modules in 3.x have been re-arranged and renamed.
+
+share|edit
+answered Jan 6 '12 at 8:06
+
+MarkW
+30334
+
